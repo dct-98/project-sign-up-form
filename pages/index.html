@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    
+    <div class="container">
+
+        <div class="flex-container left">
+            <div>
+                <p>This is a dummy company</p>
+            </div>
+        </div>
+        <div class="flex-container right">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+            <p>David Randomperson</p>
+            <form action="">
+                <p>Let's do this!</p>
+                    <label for="user_first_name">First Name</label>
+                    <input type="text" name="user_first_name" id="user_first_name" required>
+                    <label for="user_last_name">Last Name</label>
+                    <input type="text" name="user_last_name" id="user_last_name" required>
+                    <label for="user_email">Email</label>
+                    <input type="email" name="user_email" id="user_email" required type="email">
+                <div class="password">
+                    <div class="password-input">
+                        <label for="user_password">Password</label>
+                        <input type="password" name="user_password" id="user_password" required type="password">
+                    </div>
+                    <div class="password-input">
+                        <label for="user_password">Confirm Password</label>
+                        <input type="password" name="user_password" id="user_password" required type="password">
+                    </div>
+
+
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+                    
+        </div>
+    </div>
 </body>
 </html>
